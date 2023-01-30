@@ -40,6 +40,7 @@ group :development do
   gem 'listen', '~> 3.3'
   gem 'factory_bot_rails'
   gem 'rubocop'
+  gem 'bcrypt'
 end
 
 group :test do
