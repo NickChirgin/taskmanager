@@ -5,7 +5,7 @@ class Task < ApplicationRecord
   validates :description, presence: true
   validates :author, presence: true
   validates :description, length: { maximum: 500 }
-  state_machine :state do
+  state_machine :state, initial: :new_task do
     event :archive do
       transition [:released, :new_task] => :archived
     end
