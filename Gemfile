@@ -16,6 +16,7 @@ gem 'webpacker', '~> 5.0'
 # Build JSON APIs with ease. Read more: https://github.com/rails/jbuilder
 gem 'jbuilder', '~> 2.7'
 gem 'bcrypt'
+gem 'state_machines-activerecord'
 # Use Redis adapter to run Action Cable in production
 # gem 'redis', '~> 4.0'
 # Use Active Model has_secure_password
@@ -41,7 +42,6 @@ group :development do
   gem 'listen', '~> 3.3'
   gem 'factory_bot_rails'
   gem 'rubocop'
-  gem 'bcrypt'
 end
 
 group :test do
