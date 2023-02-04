@@ -24,4 +24,8 @@ class Api::ApplicationController < ApplicationController
     per > 100 ? 100 : per
   end
 
+  def self.responder
+    JsonResponder
+  end
+
 end
