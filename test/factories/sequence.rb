@@ -11,6 +11,6 @@ FactoryBot.define do
     "avatar#{n}.jpg"
   end
   sequence :expired_at do |n|
-    DateTime.now + n.days
+    Date.current
   end
 end
