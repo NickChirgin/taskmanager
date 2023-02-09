@@ -17,7 +17,7 @@ gem 'webpacker', '~> 5.0'
 gem 'jbuilder', '~> 2.7'
 gem 'bcrypt'
 gem 'state_machines-activerecord'
-gem "slim-rails"
+gem 'slim-rails'
 gem 'simple_form'
 # Use Redis adapter to run Action Cable in production
 # gem 'redis', '~> 4.0'
